@@ -1,0 +1,28 @@
+.sbtn{
+    background-color: black;
+    color: white;
+}
+.container{
+padding: 70px;
+}
+td, th,thead{
+    border: 1px solid #fae3e3;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: #cae4f5;
+}
+ 
+table {
+    border-collapse: collapse;
+    width: 600px;
+}
+ 
+tbody tr:nth-child(odd) {
+    background:var(--color-primary);
+}
+caption {
+    font-size: 0.8rem;
+}
+main{
+    padding-right: 100px;
+}

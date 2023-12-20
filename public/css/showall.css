@@ -1,0 +1,101 @@
+/* styles.css */
+
+/* Style the table */
+body{
+    background-color: #f1f4f7;
+  }
+  table.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table.table th, table.table td {
+    border: 2px solid #273b8b;
+    padding: 8px;
+    color: #1e2f75;
+  }
+  
+  table.table th {
+    background-color: #bdc6e1;
+    font-weight: bold;
+    
+  }
+  table.table td {
+    background-color: #ffffff;
+    font-weight: bold;
+  }
+  table.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto; /* Add this line to center the table horizontally */
+  }
+   a.btn-danger:hover {
+    background-color: #55b3cf; /* Change the background color on hover for the Danger button */
+  }
+  
+  
+  /* Style the image */
+  #productImageId {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  /* Center the h1 element */
+  h1 {
+    text-align: center;
+    color: #273b8b;;
+  }
+  
+  /* Style the action buttons */
+  .btn-group a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .btn-secondary {
+    background-color: #2771c0;
+    color: #fff;
+    text-decoration: none;
+  }
+  a.btn-secondary:hover {
+    background-color: #19175c; /* Change the background color on hover for the Danger button */
+  }
+  .btn-danger {
+    background-color: #273b8b;
+    color: #fff;
+    text-decoration: none;
+  }
+  table tr:nth-child(2n) {
+    background-color: #acbbe7; /* Background color for even rows */
+  }
+  /* search-styles.css */
+  
+  
+  /* Style for the search input */
+  input[name="search"] {
+    padding: 10px;
+    border: 1px solid #273b8b;
+    border-radius: 5px;
+    margin-right: 90px;
+    font-size: 16px;
+  }
+  
+  /* Style for the search button */
+  button[name="submitsearch"] {
+    padding: 10px 20px;
+    background-color: #273b8b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Style for the search button on hover */
+  button[name="submitsearch"]:hover {
+    background-color: #0056b3;
+  }
+  
