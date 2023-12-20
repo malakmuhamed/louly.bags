@@ -49,8 +49,12 @@
                 <h3>Delete product</h3>
                 
                </a> 
-               
-               <a href="#">
+               <a href="permissions.php">
+                <span class="material-icons-sharp">mail_outline</span>
+                <h3>Manage user roles</h3>
+                
+               </a> 
+               <a href="vieworders.php">
                 <span class="material-icons-sharp">report_gmailerrorred</span>
                 <h3>Orders</h3>
                </a> 

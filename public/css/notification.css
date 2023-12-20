@@ -1,0 +1,41 @@
+/* notification.css */
+
+/* Style for the notification sidebar */
+.notification-sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px; /* Initially hide the sidebar off-screen */
+    width: 250px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    transition: right 0.3s ease-in-out;
+  }
+  
+  /* Show the sidebar when the 'show-sidebar' class is added */
+  .notification-sidebar.show-sidebar {
+    right: 0;
+  }
+  
+  /* Style for the close button */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Style for the notifications list */
+  .notification-sidebar ul {
+    list-style: none;
+    padding: 20px;
+  }
+  
+  .notification-sidebar ul li {
+    margin-bottom: 10px;
+  }
+  h2{
+    padding: 20px;
+  }
+  
