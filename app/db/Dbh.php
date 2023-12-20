@@ -49,7 +49,15 @@ class DBh{
 		}
 		return $result->fetch_assoc();
 	}
+	public function addObserver(Observer $observer) {
+        $this->observers[] = $observer;
+    }
 
+    public function notifyObservers($orderId, $newOrderState) {
+        foreach ($this->observers as $observer) {
+            $observer->update($orderId, $newOrderState);
+        }
+    }
 	function __destruct(){
 		$this->conn->close();
 	}
