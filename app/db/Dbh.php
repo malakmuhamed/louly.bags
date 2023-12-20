@@ -10,6 +10,7 @@ class DBh{
 	private $conn;
 	private $result;
 	public $sql;
+	private $observers = array();
 
 	function __construct() {
 		$this->servername = DB_SERVER;
